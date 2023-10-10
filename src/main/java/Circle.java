@@ -31,7 +31,10 @@ public class Circle
      */
     public Circle(double radius)
     {
-        // TODO - replace this line with your code
+        x = 0;
+        y = 0;
+        this.radius = radius;
+
     }
 
     /**
@@ -44,7 +47,10 @@ public class Circle
      */
     public Circle(double x, double y, double radius)
     {
-        // TODO - replace this line with your code
+        this.y = y;
+        this.x = x;
+        this.radius = radius;
+        //Circle example = new Circle(5, 4, 3);
     }
 
     //accessors
@@ -55,7 +61,7 @@ public class Circle
      */
     public double getRadius()
     {
-        return 0; // TODO - replace this line with your code
+        return radius;
     }
 
     /**
@@ -65,7 +71,7 @@ public class Circle
      */
     public double getX()
     {
-        return 0; // TODO - replace this line with your code
+        return x;
     }
 
     /**
@@ -75,7 +81,7 @@ public class Circle
      */
     public double getY()
     {
-        return 0; // TODO - replace this line with your code
+        return y;
     }
 
     // mutator methods
@@ -86,7 +92,7 @@ public class Circle
      */
     public void setRadius(double radius)
     {
-        // TODO - replace this line with your code
+        this.radius = radius;
     }
 
     /**
@@ -96,7 +102,7 @@ public class Circle
      */
     public void setX(double x)
     {
-        // TODO - replace this line with your code
+        this.x = x;
     }
 
     /**
@@ -106,7 +112,7 @@ public class Circle
      */
     public void setY(double y)
     {
-        // TODO - replace this line with your code
+        this.y = y;
     }
 
     //================== DO NOT TOUCH CODE BELOW THIS LINE ==========================
